@@ -4,30 +4,31 @@ import csv
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+from selenium import webdriver
 
 
-options = uc.ChromeOptions() 
-my_user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
-options.add_argument(f"user-agent={my_user_agent}")
-options.add_argument("--headless") 
-driver = uc.Chrome(options=options) 
+options = webdriver.ChromeOptions() 
+options.add_argument("--head")
+driver = uc.Chrome(options=options)
 
-url_to_scrape = 'https://www.realtor.com/realestateandhomes-search/Rochester_NY'
+url_to_scrape = 'https://www.realtor.com/realestateandhomes-search/Canisteo_NY'
 time_delay = 10
 
 driver.get(url_to_scrape)
+
+
 
 try:
     property_list = WebDriverWait(driver, time_delay).until(
         EC.presence_of_element_located((By.CLASS_NAME, "PropertiesList_propertiesContainer__Cud_i"))
     )
-except:
-    print('Page took too long to load')
+except Exception as e:
+    print(e)
     exit()
 
 
 
-print(property_list)
+print(property_list.text)
 # Save results into a csv file
 
 # Specify the file path to save the CSV file
