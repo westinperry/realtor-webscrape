@@ -1,1 +1,13 @@
-Property Name,Address,Price
+Brokered by                                      ,Status                 ,Type                       ,Price         ,Size          ,Address
+"Brokered by Land Quest, Inc."                   ,new                    ,Virtual tour available     ,Land for sale ,"$39,900"     ,4809 Bush Hill Rd
+Brokered by Richard Winters Real Estate          ,tour available         ,House for sale             ,"$49,900"     ,$5k           ,1
+Brokered by Empire Realty Group                  ,tour available         ,House for sale             ,"$108,000"    ,$4k           ,2
+Brokered by Howard Hanna - Hornell               ,tour available         ,House for sale             ,"$150,000"    ,$10k          ,2.5
+Brokered by WHITETAIL PROPERTIES REAL ESTATE LLC ,tour available         ,Pending                    ,"$139,000"    ,40.44acre lot ,"Canisteo, NY 14823"
+Brokered by Seven Valley Realty                  ,tour available         ,House for sale             ,"$220,000"    ,2             ,bath
+Brokered by Howard Hanna - Hornell               ,tour available         ,Land for sale              ,"$320,000"    ,$29.9k        ,State Route 36 Lot 16
+Brokered by Howard Hanna - Hornell               ,tour available         ,House for sale             ,"$399,900"    ,6             ,bath
+"Brokered by Land Quest, Inc."                   ,tour available         ,Land for sale              ,"$59,900"     ,17acre lot    ,"Canisteo, NY 14823"
+Brokered by Hunt Real Estate ERA                 ,tour available         ,House for sale             ,"$276,900"    ,$12k          ,2.5
+Brokered by Landquest Inc.                       ,Virtual tour available ,Pending                    ,"$22,900"     ,5acre lot     ,"Canisteo, NY 14819"
+Brokered by Howard Hanna Ithaca (Hancock St)     ,tour available         ,Multi-family home for sale ,"$97,900"     ,6             ,bath
